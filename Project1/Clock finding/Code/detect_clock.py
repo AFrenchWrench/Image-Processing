@@ -2,6 +2,7 @@
 
 import cv2
 import numpy as np
+import math
 def detect_clock(image):
     edges = cv2.Canny(image, 50, 150)
 
